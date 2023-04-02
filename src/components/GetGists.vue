@@ -64,7 +64,7 @@ export default {
     getInfo(){
       this.display = true;
       const octokit = new Octokit({
-      auth: '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',
+      auth: '',
     });
       octokit.gists.listForUser({
       username: this.username,
